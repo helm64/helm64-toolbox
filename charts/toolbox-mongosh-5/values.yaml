@@ -1,0 +1,3 @@
+containerName: "toolbox-mongosh-5"
+containerImage: "ghcr.io/serdigital64/oraclelinux-8-toolbox-mongosh-5:latest"
+toolboxType: "mongosh-5"

@@ -1,0 +1,7 @@
+toolboxOSEnabled: true
+toolboxPSQL13Enabled: false
+toolboxMongoSH5Enabled: false
+toolboxMongoSH6Enabled: false
+
+global:
+  containerReplicas: "1"

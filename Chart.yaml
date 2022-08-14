@@ -1,0 +1,23 @@
+apiVersion: "v2"
+name: "helm64-toolbox"
+description: "SysAdmin Toolbox"
+type: "application"
+version: "0.1.0"
+appVersion: "0.1.0"
+keywords:
+  - "toolbox"
+home: "https://github.com/serdigital64/helm64"
+sources:
+  - "https://github.com/helm64/helm64-toolbox"
+maintainers:
+  - name: "SerDigital64"
+    url: "https://github.com/serdigital64"
+dependencies:
+  - name: "helm64-toolbox-os"
+    condition: "toolboxOSEnabled"
+  - name: "helm64-toolbox-psql-13"
+    condition: "toolboxPSQL13Enabled"
+  - name: "helm64-toolbox-mongosh-5"
+    condition: "toolboxMongoSH5Enabled"
+  - name: "helm64-toolbox-mongosh-6"
+    condition: "toolboxMongoSH6Enabled"

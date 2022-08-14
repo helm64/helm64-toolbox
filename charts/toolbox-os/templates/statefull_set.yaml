@@ -1,0 +1,22 @@
+apiVersion: "apps/v1"
+kind: "StatefulSet"
+metadata:
+  name: {{ print .Release.Name "-" .Values.toolboxType | quote }}
+spec:
+  replicas: {{ .Values.global.containerReplicas | int }}
+  selector:
+    matchLabels:
+      app: {{ print .Release.Name "-" .Values.toolboxType | quote }}
+  serviceName: {{ print .Release.Name "-" .Values.toolboxType | quote }}
+  template:
+    metadata:
+      labels:
+        app: {{ print .Release.Name "-" .Values.toolboxType | quote }}
+    spec:
+      containers:
+        - name: {{ .Values.containerName | quote }}
+          image: {{ .Values.containerImage | quote }}
+          command:
+            - "/usr/bin/sleep"
+          args:
+            - "3650d"
