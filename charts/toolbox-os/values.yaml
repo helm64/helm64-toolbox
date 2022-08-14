@@ -1,0 +1,3 @@
+containerName: "toolbox-os"
+containerImage: "ghcr.io/serdigital64/oraclelinux-8-toolbox:latest"
+toolboxType: "os"

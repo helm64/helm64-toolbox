@@ -1,0 +1,14 @@
+apiVersion: "v2"
+name: "helm64-toolbox-os"
+description: "SysAdmin Toolbox: OS"
+type: "application"
+version: "0.1.0"
+appVersion: "0.1.0"
+keywords:
+  - "toolbox-os"
+home: "https://github.com/serdigital64/helm64"
+sources:
+  - "https://github.com/helm64/helm64-toolbox"
+maintainers:
+  - name: "SerDigital64"
+    url: "https://github.com/serdigital64"
