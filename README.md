@@ -29,12 +29,12 @@ The toolbox currently contains tools for:
 - MongoDB 5
 - MongoDB 6
 
-The **helm64-toolbox** helm package is part of the [Helm64](https://github.com/serdigital64/helm64) project.
+The **helm64-toolbox** helm package is part of the [Helm64](https://github.com/helm64/helm64) project.
 
 ## Repositories
 
 - Module GIT repository: [https://github.com/helm64/helm64-toolbox](https://github.com/helm64/helm64-toolbox)
-- Parent project: [https://github.com/serdigital64/helm64](https://github.com/serdigital64/helm64)
+- Parent project: [https://github.com/helm64/helm64](https://github.com/helm64/helm64)
 - Helm package repository: [https://serdigital64.github.io/helm64/](https://serdigital64.github.io/helm64/)
 - ArtifactHub repository: [SerDigital64](https://artifacthub.io/packages/search?repo=serdigital64)
 
@@ -42,7 +42,7 @@ The **helm64-toolbox** helm package is part of the [Helm64](https://github.com/s
 
 Help on implementing new features and maintaining the code base is welcomed.
 
-- [Contributor Covenant Code of Conduct](https://github.com/serdigital64/helm64/blob/develop/CODE_OF_CONDUCT.md)
+- [Contributor Covenant Code of Conduct](https://github.com/helm64/helm64/blob/develop/CODE_OF_CONDUCT.md)
 
 ## License
 
