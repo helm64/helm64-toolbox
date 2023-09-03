@@ -2,7 +2,7 @@ apiVersion: "v2"
 name: "helm64-toolbox"
 description: "SysAdmin Toolbox"
 type: "application"
-version: "0.3.0"
+version: "0.3.1"
 appVersion: "0.2.0"
 keywords:
   - "toolbox"
