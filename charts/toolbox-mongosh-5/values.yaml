@@ -1,3 +1,3 @@
-containerName: "toolbox-mongosh-5"
-containerImage: "ghcr.io/serdigital64/toolbox/oraclelinux-8-toolbox-mongosh-5:latest"
-toolboxType: "mongosh-5"
+containerName: "toolbox-mongodbcli-5"
+containerImage: "ghcr.io/helm64/toolbox/oraclelinux-9-toolbox-mongodbcli-5:latest"
+toolboxType: "mongodbcli-5"
